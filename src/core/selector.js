@@ -1,0 +1,9 @@
+export const app = document.querySelector("#app");
+export const categoryList = app.querySelector("#category-list");
+export const productCart = app.querySelector("#product-cart");
+export const cartBtn = app.querySelector("#cart-btn");
+export const cartUi = app.querySelector("#cartUi");
+export const closeCart = app.querySelector("#closeCart");
+export const cartItem = app.querySelector("#cart-items");
+export const cartTotalAmount = app.querySelector("#cart-total-amount");
+export const cartBtnCount = app.querySelector("#cart-btn-count");

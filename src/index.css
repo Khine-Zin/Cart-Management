@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category-badge{
+    @apply border border-neutral-700 py-1 px-3;
+}
+
+.category-badge.active{
+    @apply bg-neutral-700 text-white;
+}
+
+.product-card{
+    @apply duration-500 transition-transform;
+}
+
+.product-card:hover .product-img{
+    @apply -rotate-6;
+}
